@@ -269,6 +269,13 @@ body {
 }
 
 /*custom styling*/
+body {
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .social-media__logo {
   width: 20px;
 }
@@ -278,9 +285,12 @@ body {
   padding-right: 20px;
 }
 
-body {
-  background-image: url("./assets/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+.skills__lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.language-list {
+  margin-bottom: 5px;
 }
