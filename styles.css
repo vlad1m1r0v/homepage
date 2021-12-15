@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .fv {
@@ -94,6 +95,7 @@ body {
 
 .contact-info__block--center {
   justify-content: center;
+  padding-right: 20px;
 }
 
 .contact-info__item {
@@ -101,10 +103,7 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
-}
-
-.contact-info__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .contact-info__item-icon-wrapper {
