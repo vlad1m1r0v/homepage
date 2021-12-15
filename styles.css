@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .fv {
@@ -36,6 +37,7 @@ body {
 }
 
 .resume {
+  background-color: white;
   margin: 50px auto;
   border: 1px solid #f5f5f5;
   box-shadow: 1px 1px 7px 7px #f5f5f5;
@@ -70,7 +72,8 @@ body {
 
 /*Contact info styles*/
 .contact-info__header,
-.contact-info__sub-header {
+.contact-info__sub-header,
+.about-myself__sub-header {
   text-align: center;
 }
 
@@ -81,7 +84,8 @@ body {
   text-decoration-line: underline;
 }
 
-.contact-info__sub-header {
+.contact-info__sub-header,
+.about-myself__sub-header {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
 }
@@ -94,6 +98,7 @@ body {
 
 .contact-info__block--center {
   justify-content: center;
+  padding-right: 20px;
 }
 
 .contact-info__item {
@@ -101,10 +106,7 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
-}
-
-.contact-info__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .contact-info__item-icon-wrapper {
@@ -112,6 +114,7 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .contact-info__item-icon path {
@@ -263,4 +266,31 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/*custom styling*/
+body {
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.social-media__logo {
+  width: 20px;
+}
+
+.social-media__name,
+.contact-info__location {
+  padding-right: 20px;
+}
+
+.skills__lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.language-list {
+  margin-bottom: 5px;
 }
