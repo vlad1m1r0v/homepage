@@ -112,6 +112,7 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .contact-info__item-icon path {
@@ -263,4 +264,14 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/*custom styling*/
+.social-media__logo {
+  width: 20px;
+}
+
+.social-media__name,
+.contact-info__location {
+  padding-right: 20px;
 }
