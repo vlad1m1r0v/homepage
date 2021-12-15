@@ -71,7 +71,8 @@ body {
 
 /*Contact info styles*/
 .contact-info__header,
-.contact-info__sub-header {
+.contact-info__sub-header,
+.about-myself__sub-header {
   text-align: center;
 }
 
@@ -82,7 +83,8 @@ body {
   text-decoration-line: underline;
 }
 
-.contact-info__sub-header {
+.contact-info__sub-header,
+.about-myself__sub-header {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
 }
