@@ -7,7 +7,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
@@ -36,10 +37,11 @@ body {
 
 .resume {
   margin: 50px auto;
-  border: 1px solid #f5f5f5;
-  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  border: 1px solid #e0c3fc;
+  box-shadow: 1px 1px 7px 7px #d5c3fc;
   padding: 30px 0;
   max-width: 900px;
+  background-color: white;
 }
 
 .resume__block {
@@ -257,4 +259,15 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/* custom marker */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "➤ ";
+  margin-right: 5px;
 }
